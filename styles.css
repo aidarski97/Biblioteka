@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-variant: small-caps;
+
+}
+
+.header{
+    padding: 5px 20px;
+    background-color: rgba(86, 165, 255, 0.525);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#logo_title{
+    border-radius: 15px;
+    background-color: #ffffff5a;
+    padding: 5px;
+}
+
+#add_btn{
+    border-radius: 15px;
+    border-color: #ffffff00;
+    background-color: rgba(29, 124, 29, 0.526);
+
+}
+
+
+.searcher{
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#search_input{
+    border-style: hidden;
+    border-radius: 15px;
+    margin: 0 8px;
+    border-color: #ffffff;
+
+}
+
+#searcher_icon{
+    border-radius: 15px;
+    border-color: #fff;
+}
+
+#searcher_icon_img{
+    width: 10px;
+    height: 10px;
+}
+
+.list{
+    background-color: rgb(164, 164, 164);
+}
+
+.books{
+    background-color: #ffffff79;
+}
+
+/* ! Modal */
+
+.main-modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .inner-modal {
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .close {
+    text-align: end;
+  }
+
+  /* ! Modal end */
