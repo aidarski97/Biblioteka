@@ -69,7 +69,7 @@ p{
 }
 
 .books{
-    background-color: #ffffff79;
+
 }
 
 /* ! Modal */
@@ -91,9 +91,47 @@ p{
     margin: auto;
     text-align: center;
   }
+
+  .all-inp{
+    display: flex;
+    flex-direction: column; 
+  }
+
+.add-inp>input{
+    margin: 2px;
+}
   
   .close {
     text-align: end;
   }
 
   /* ! Modal end */
+
+  /* ! Cards start */
+
+  .card-main{
+    border-radius: 20px;
+    background-color: #ffffff79;
+    width: 75%;
+    display: flex;
+
+  }
+
+  .card-image{
+    display: block;
+    width: 10%;
+    margin: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.571);
+  }
+
+  .btn-edit-delete{
+
+  }
+
+  #delete{
+
+  }
+
+  #edit{
+
+  }
